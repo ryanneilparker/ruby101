@@ -14,3 +14,14 @@ Add another section onto name.rb that prints the name of the user 10 times. You 
 10.times do |x|
   puts name
 end
+
+=begin
+Modify name.rb again so that it first asks the user for their first name, saves it into a variable, and then does the same for the last name. Then outputs their full name all at once.
+=end
+
+puts "Please enter you first name below:"
+first_name = gets.chomp
+puts "Please enter your second name below:"
+second_name = gets.chomp
+
+puts first_name + " " + second_name
