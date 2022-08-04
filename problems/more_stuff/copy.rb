@@ -26,4 +26,4 @@ contacts["Sally Johnson"][:email] = contact_data.last.first
 contacts["Sally Johnson"][:address] = contact_data.last[1]
 contacts["Sally Johnson"][:phone] = contact_data.last[2]
 
-puts contacts
+puts contacts["Joe Smith"][:email]
