@@ -7,4 +7,4 @@ pets = ['cat', 'dog', 'fish', 'lizard']
 # Expected output: I have a pet fish!
 
 my_pet = pets[2]
-puts my_pet
+puts "I have a pet #{my_pet}"
